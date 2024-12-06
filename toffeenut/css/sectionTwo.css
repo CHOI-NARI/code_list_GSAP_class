@@ -1,0 +1,47 @@
+.B {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.containerTwo {
+  margin: 0 auto;
+  width: 1400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxThree {
+  margin: 0 auto;
+  width: 670px;
+  height: 100%;
+}
+
+.second_texts {
+  font-size: 180px;
+  font-weight: bold;
+  opacity: 0;
+}
+
+.textOne {
+  text-align: start;
+  color: white;
+}
+
+.textTwo {
+  text-align: end;
+  color: white;
+}
+
+.textThree {
+  color: white;
+}
+
+.textFour {
+  font-size: 30px;
+  color: aqua;
+  text-align: end;
+}

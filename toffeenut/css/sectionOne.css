@@ -1,0 +1,55 @@
+.A {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.containerOne {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.photoOne {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  position: absolute;
+  top: 70px;
+  right: 100px;
+}
+
+.title {
+  position: absolute;
+  margin: 0 auto;
+  top: 230px;
+  font-size: 150px;
+  font-weight: bold;
+  /* opacity: 0.3; */
+  transform: translateX(100px);
+  z-index: 1;
+}
+
+.photoTwo {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 100px;
+  left: 5px;
+}
+
+.sentence {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  font-size: 25px;
+}

@@ -1,0 +1,33 @@
+.D {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.containerFour {
+  margin: 0 auto;
+  width: 1400px;
+  height: 100%;
+}
+
+.boxFive {
+  display: flex;
+  margin: 0 auto;
+  width: 750px;
+  height: 400px;
+  font-size: 50px;
+  color: white;
+  gap: 30px;
+}
+
+.card {
+  font-weight: bold;
+  flex: 0 0 200px;
+}
+.card > h1 {
+  font-size: 15px;
+}
+
+.card > h3 {
+  font-size: 30px;
+}

@@ -1,0 +1,25 @@
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+}
+
+nav {
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxOne {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.boxTwo {
+  display: flex;
+  gap: 50px;
+}
